@@ -39,7 +39,7 @@ const requestCameraPermission = async () => {
       return (
         
         <View style={{ flex: 1, backgroundColor: '#333' }}>
-        {/* <Text style={{color:'#000'}}>Streamer Name {this.props.route.params.streamerName}</Text>
+        <Text style={{color:'#000'}}>Streamer Name {this.props.route.params.streamerName}</Text>
 
           <NodeCameraView
             style={{ flex: 1, backgroundColor: '#333' }}
@@ -53,7 +53,7 @@ const requestCameraPermission = async () => {
             onStatus={(code, msg) => {
             console.log("onStatus=" + code + " msg=" + msg);
           }}
-          /> */}
+          />
         <Button title="request permissions" onPress={requestCameraPermission} />
            <Button
             onPress={() => {
